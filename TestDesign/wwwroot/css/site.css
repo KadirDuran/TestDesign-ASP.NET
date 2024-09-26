@@ -1,0 +1,54 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+.topnav {
+    color:white;
+    background-color: #5a0064;
+    overflow: hidden;
+}
+
+    .topnav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 30px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .lefts {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    }
+
+        .topnav a:hover {
+            background-color: #333;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .topnav a.active2 {
+            background-color: #14c785;
+            color: white;
+        }

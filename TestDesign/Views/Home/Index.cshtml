@@ -1,0 +1,415 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!-- Top0 Section Start -->
+<div class="top">
+    <div class="topnav">
+        <div class="lefts">
+            <a  asp-area="" asp-controller="Home" asp-action="Index">TestDesign-Eve Internet Bilisim</a>
+            </div>
+        <a class="active" asp-area="" asp-controller="Home" asp-action="Navigate">TOD TV</a>
+        <a class="active2" asp-area="" asp-controller="Home" asp-action="Navigate">beIN CONNECT</a>
+        <a asp-area="" asp-controller="Home" asp-action="Navigate">Digiturk Paketleri</a>
+        <a asp-area="" asp-controller="Home" asp-action="Navigate">Digiturk Internet Paketleri</a>
+    </div>
+
+
+</div>
+<!-- Top0 Section End -->
+<!-- Top1 Section Start -->
+<div class="container-fluid">
+<div class="box">
+    <span style="--i:1"><a asp-area="" asp-controller="Home" asp-action="Navigate"><img src="~/images/k1.png"></a></span>
+    <span style="--i:2"> <a asp-area="" asp-controller="Home" asp-action="Navigate"><img src="~/images/k2.png"></a></span>
+    <span style="--i:3"><a asp-area="" asp-controller="Home" asp-action="Navigate"><img src="~/images/k3.png"></a></span>
+    <span style="--i:4"><a asp-area="" asp-controller="Home" asp-action="Navigate"><img src="~/images/k4.png"></a></span>
+        <span style="--i:5"><a asp-area="" asp-controller="Home" asp-action="Navigate"><img src="~/images/k5.png"></a></span>
+        <span style="--i:6"><a asp-area="" asp-controller="Home" asp-action="Navigate"><img src="~/images/k6.png"></a></span>
+</div>
+</div>
+<!-- Top1 Section End -->
+<!-- Top2 Section Start -->
+<div class="container-fluid mt-4">
+    <div class="row m-3">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="~/images/galatasaray_kasimpasa.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div id="gs">
+                                    <ul>
+                                        <li><span id="days1"></span>GÜN</li>
+                                        <li><span id="hours1"></span>SAAT</li>
+                                        <li><span id="minutes1"></span>DAKİKA</li>
+                                        <li><span id="seconds1"></span>SANİYE</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+                            <h5 class="card-title">GALATASARAY X KASIMPAŞA</h5>
+                            <p class="card-text">TARAFTAR PAKETİ SADECE 299 TL</p>
+                            <a asp-controller="Home" asp-action="Navigate" class="btn btn-primary">HEMEN BAŞVUR</a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="~/images/trabzonspor_konyaspor.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div id="ts">
+                                    <ul>
+                                        <li><span id="days2"></span> GÜN</li>
+                                        <li><span id="hours2"></span> SAAT</li>
+                                        <li><span id="minutes2"></span> DAKİKA</li>
+                                        <li><span id="seconds2"></span> SANİYE</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <hr />
+                            <h5 class="card-title">TRABZONSPOR X KONYASPOR</h5>
+                            <p class="card-text">TARAFTAR PAKETİ SADECE 299 TL</p>
+                            <a asp-controller="Home" asp-action="Navigate" class="btn btn-primary">HEMEN BAŞVUR</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="~/images/antalyaspor_fenerbahce.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div id="fb">
+                                    <ul>
+                                        <li><span id="days3"></span>GÜN</li>
+                                        <li><span id="hours3"></span>SAAT</li>
+                                        <li><span id="minutes3"></span>DAKİKA</li>
+                                        <li><span id="seconds3"></span>SANİYE</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+                            <h5 class="card-title">ANTALYASPOR X FENERBAHÇE</h5>
+                            <p class="card-text">TARAFTAR PAKETİ SADECE 299 TL</p>
+                            <a asp-controller="Home" asp-action="Navigate" class="btn btn-primary">HEMEN BAŞVUR</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="~/images/kayserispor_besiktas.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div id="bjk">
+                                    <ul>
+                                        <li><span id="days4"></span>GÜN</li>
+                                        <li><span id="hours4"></span>SAAT</li>
+                                        <li><span id="minutes4"></span>DAKİKA</li>
+                                        <li><span id="seconds4"></span>SANİYE</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr />
+                            <h5 class="card-title">KAYSERİSPOR X BEŞİKTAŞ</h5>
+                            <p class="card-text">TARAFTAR PAKETİ SADECE 299 TL</p>
+                            <a asp-controller="Home" asp-action="Navigate" class="btn btn-primary">HEMEN BAŞVUR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 d-flex align-items-center justify-content-center" style="height: 100vh; background-color:white; border-radius:0px  0px 50px 50px   ;">
+
+            <div class="w-75">
+
+                <form>
+                    <div class="mb-3">
+                        <h4>Bize Ulaşın</h4>
+                        <h3> 0850 255 73 73</h3>
+                    </div>
+                    <hr />
+                    <div class="mb-3">
+                        <h5>Sizi Arayalım</h5>
+                    </div>
+                    <div class="mb-3">
+                        <p>
+                            Kampanyalarımız ve tüm gelişmeler hakkında detaylı bilgi almak için formu doldurun, hemen sizi arayalım.
+                        </p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Ad Soyad Giriniz:</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Telefon Numarası Giriniz:</label>
+                        <input type="tel" class="form-control" id="phone" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Top2 Section End -->
+
+<!-- Top3 Section Start -->
+<div class="container-fluid mt-4">
+    <h3 class="text-center text-white">Sıralama Ve Puan Durumu</h3>
+    <div class="team-menu">
+        <div class="team-item">
+            <div class="team-rank">1</div>
+            <img src="https://via.placeholder.com/50" alt="Takım A" />
+            <div class="team-points">25</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">2</div>
+            <img src="https://via.placeholder.com/50" alt="Takım B" />
+            <div class="team-points">22</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">3</div>
+            <img src="https://via.placeholder.com/50" alt="Takım C" />
+            <div class="team-points">20</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">4</div>
+            <img src="https://via.placeholder.com/50" alt="Takım D" />
+            <div class="team-points">18</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">5</div>
+            <img src="https://via.placeholder.com/50" alt="Takım E" />
+            <div class="team-points">17</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">6</div>
+            <img src="https://via.placeholder.com/50" alt="Takım F" />
+            <div class="team-points">15</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">7</div>
+            <img src="https://via.placeholder.com/50" alt="Takım G" />
+            <div class="team-points">14</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">8</div>
+            <img src="https://via.placeholder.com/50" alt="Takım H" />
+            <div class="team-points">13</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">9</div>
+            <img src="https://via.placeholder.com/50" alt="Takım I" />
+            <div class="team-points">12</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">10</div>
+            <img src="https://via.placeholder.com/50" alt="Takım J" />
+            <div class="team-points">11</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">11</div>
+            <img src="https://via.placeholder.com/50" alt="Takım K" />
+            <div class="team-points">10</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">12</div>
+            <img src="https://via.placeholder.com/50" alt="Takım L" />
+            <div class="team-points">9</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">13</div>
+            <img src="https://via.placeholder.com/50" alt="Takım M" />
+            <div class="team-points">8</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">14</div>
+            <img src="https://via.placeholder.com/50" alt="Takım N" />
+            <div class="team-points">7</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">15</div>
+            <img src="https://via.placeholder.com/50" alt="Takım O" />
+            <div class="team-points">6</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">16</div>
+            <img src="https://via.placeholder.com/50" alt="Takım P" />
+            <div class="team-points">5</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">17</div>
+            <img src="https://via.placeholder.com/50" alt="Takım Q" />
+            <div class="team-points">4</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">18</div>
+            <img src="https://via.placeholder.com/50" alt="Takım R" />
+            <div class="team-points">3</div>
+        </div>
+        <div class="team-item">
+            <div class="team-rank">19</div>
+            <img src="https://via.placeholder.com/50" alt="Takım S" />
+            <div class="team-points">2</div>
+        </div>
+    </div>
+</div>
+<!-- Top3 Section End -->
+
+<!-- Top4 Section Start -->
+
+<h3 style="text-align:center;color:white;">Ekim Digiturk'te Güzel  </h3>
+
+<div class="containers">
+    
+    <div id="slide">
+        <div class="item" style="background-image: url('/images/f1.jpg');">
+            
+
+            <div class="content">
+                <div class="name">SARMAŞIK ZAMANI</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('/images/f2.jpg');">
+            <div class="content">
+                <div class="name">WITHOUTSIN</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('/images/f3.jpg');">
+            <div class="content">
+                <div class="name">PANHANDLE</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('/images/f4.jpg'); ">
+            <div class="content">
+                <div class="name">HACKS</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+        </div>
+         <div class="item" style="background-image: url('/images/f5.jpg'); ">
+            <div class="content">
+                <div class="name">THREE PINES</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+        </div>
+         <div class="item" style="background-image: url('/images/f6.jpg'); ">
+            <div class="content">
+                <div class="name">HOUSE OF THE DRAGON</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+        </div>
+         <div class="item" style="background-image: url('/images/f7.jpg'); ">
+            <div class="content">
+                <div class="name">SNATCH</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('/images/f8.jpg'); ">
+            <div class="content">
+                <div class="name">SNATCH</div>
+                <div class="des">Eylül ayında Digiturk'teki filmleri kaçırmayın!</div>
+                <form>
+                    <button type="submit" asp-controller="Home" asp-action="Navigate">Hemen Başvur</button>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+</div>
+<!-- Top4 Section Start -->
+
+
+
+<!-- Top5 Section Start -->
+<div class="container-fluid mt-4">
+    <h3 class="text-center text-white">En Çok İzlenenler </h3>
+    <div class="film-menu">
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+        <div class="film-item">
+            <img src="https://via.placeholder.com/100" alt="Films" />
+            <div class="film-name">Film Name</div>
+        </div>
+
+       
+    </div>
+</div>
+
+<!-- Top5 Section End -->

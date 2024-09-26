@@ -1,7 +1,5 @@
 
 # TestDesign-Asp.Net Projesi
-# Uygulama İçerik Görüntüsü
-![Ekran görüntüsü 2024-09-26 180105 (1)](https://github.com/user-attachments/assets/91d8e3ec-6610-47a5-b3c3-9892f09434ca)
 
 <h1 align="center">Hi 👋, I'm Kadir</h1>
 <h3 align="left">Connect with me:</h3>
